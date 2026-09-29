@@ -8,7 +8,7 @@ $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
 <head>
     <meta charset="utf-8">
     <title>Clients</title>
-    <link rel="stylesheet" href="client_styles.css">
+    <link rel="stylesheet" href="page_styles.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@ $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
         <h2>Clients</h2>
         <p><a href="clients_add.php">+ Add Client</a></p>
 
-        <table class = "clients_list" border="1" cellpadding="8">
+        <table class = "list" border="1" cellpadding="8">
             <tr>
                 <th>ID</th>
                 <th>Name</th>

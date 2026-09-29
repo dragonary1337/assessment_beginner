@@ -1,5 +1,5 @@
 <?php
-include "db.php";
+$conn = require "db.php";
 
 $clients = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(*) AS c FROM clients"))['c'];
 $services = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(*) AS c FROM services"))['c'];

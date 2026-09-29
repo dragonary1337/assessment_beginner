@@ -26,7 +26,7 @@ if (isset($_POST['save'])) {
 <head>
     <meta charset="utf-8">
     <title>Add Client</title>
-    <link rel="stylesheet" href="client_styles.css">
+    <link rel="stylesheet" href="page_styles.css">
 </head>
 
 <body>
